@@ -749,6 +749,7 @@
 				<maxItemCount>6.5</maxItemCount>
 				<itemSize>0.16 0.1</itemSize>
 				<itemScale>1.3</itemScale>
+				<fastScrolling>true</fastScrolling>
 				<imageInterpolation>linear</imageInterpolation>
 				<unfocusedItemOpacity>1</unfocusedItemOpacity>
 				<unfocusedItemSaturation>0.5</unfocusedItemSaturation>
