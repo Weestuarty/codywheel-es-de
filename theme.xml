@@ -660,7 +660,7 @@
 		<video name="cover9">
 			<pos>0.22 0.305</pos>
 			<origin>.5 0.5</origin>
-			<maxSize>.43 0.49</maxSize>
+			<maxSize>.43 0.47</maxSize>
 			<imageType>miximage</imageType>
 			<pillarboxes>false</pillarboxes>
 			<zIndex>8</zIndex>
