@@ -1,0 +1,104 @@
+<!--
+    Theme capabilities for CodyWheel-Interpreted
+-->
+
+<themeCapabilities>
+    <aspectRatio>16:9</aspectRatio>
+    <aspectRatio>16:10</aspectRatio>
+    <aspectRatio>4:3</aspectRatio>
+    <aspectRatio>21:9</aspectRatio>
+    
+    <suppressTransitionProfiles>
+        <entry>builtin-instant</entry>
+        <entry>builtin-slide</entry>
+        <entry>builtin-fade</entry>
+    </suppressTransitionProfiles>
+    
+
+    <transitions name="instantfade">
+        <label>Instant w/Fade</label>
+        <selectable>true</selectable>
+        <systemToSystem>instant</systemToSystem>
+        <systemToGamelist>fade</systemToGamelist>
+        <gamelistToGamelist>instant</gamelistToGamelist>
+        <gamelistToSystem>fade</gamelistToSystem>
+        <startupToSystem>slide</startupToSystem>
+        <startupToGamelist>slide</startupToGamelist>
+    </transitions>
+
+    <transitions name="instant">
+        <label>Instant</label>
+        <selectable>true</selectable>
+        <systemToSystem>instant</systemToSystem>
+        <systemToGamelist>instant</systemToGamelist>
+        <gamelistToGamelist>instant</gamelistToGamelist>
+        <gamelistToSystem>instant</gamelistToSystem>
+        <startupToSystem>instant</startupToSystem>
+        <startupToGamelist>instant</startupToGamelist>
+    </transitions>
+    
+    <themeName>Cody</themeName>
+
+    <colorScheme name="gold">
+        <label>Gold</label>
+    </colorScheme>
+
+    <colorScheme name="mono">
+        <label>Black n White</label>
+    </colorScheme>
+
+    <colorScheme name="blue">
+        <label>Blue</label>
+    </colorScheme>
+
+    
+    <colorScheme name="gameboy">
+        <label>Gameboy</label>
+    </colorScheme>
+
+    <colorScheme name="gameboycase">
+        <label>Hitman</label>
+    </colorScheme>
+
+    <colorScheme name="retro">
+        <label>Retro</label>
+    </colorScheme>
+    
+    <colorScheme name="classy">
+        <label>Stay Classy</label>
+    </colorScheme>
+
+    <colorScheme name="comm">
+        <label>Black n Blue</label>
+    </colorScheme>
+
+    <colorScheme name="chill">
+        <label>Chilled</label>
+    </colorScheme>
+
+    <colorScheme name="purplerain">
+        <label>Purple Rain</label>
+    </colorScheme>
+
+    <colorScheme name="orange">
+        <label>Rusty</label>
+    </colorScheme>
+
+    <colorScheme name="sega">
+        <label>Sega</label>
+    </colorScheme>
+
+    <variant name="gamelist">
+        <label>Text Gamelist</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="gamecarousel">
+        <label>Carousel Gamelist</label>
+        <selectable>true</selectable>
+    </variant>
+    <variant name="gamegrid">
+        <label>Grid Gamelist</label>
+        <selectable>true</selectable>
+    </variant>
+</themeCapabilities>
