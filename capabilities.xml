@@ -37,7 +37,7 @@
         <startupToGamelist>instant</startupToGamelist>
     </transitions>
     
-    <themeName>Cody</themeName>
+    <themeName>CodyWheel</themeName>
 
     <colorScheme name="gold">
         <label>Gold</label>
