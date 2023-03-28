@@ -3,7 +3,7 @@
 A simple alternate carousel theme set for ES-DE.
 
 ![systems](sys.png)
-![games](game.png)
+![games](games.png)
 
 The following options are included:
 
