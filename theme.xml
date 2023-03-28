@@ -239,7 +239,7 @@
 		</image>
 		<image name="systemimage">
 			<pos>0.1475 0.51</pos>
-			<maxSize>0.24 0.32</maxSize>
+			<maxSize>0.18 0.24</maxSize>
 			<origin>0.5 0.5</origin>
 			<path>./assets/systemimages/${system.theme}.png</path>
 			<tile>false</tile>
