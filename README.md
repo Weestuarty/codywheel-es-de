@@ -5,6 +5,7 @@ A simple alternate carousel theme set for ES-DE.
 Customization options are available:
 
 Add System Specific artwork - Place .jpg or .png inside systems/artwork to override default game art (image will be cropped to fit)
+
 Add Information for Custom Systems/ themed collections - place {systemshortname}.xml inside systems/metadata-custom (Blank file included as base)
 
 ![systems](sys.png)
