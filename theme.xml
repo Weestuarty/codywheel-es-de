@@ -362,11 +362,10 @@
 		<image name="back">
 			<pos>0 0</pos>
 			<cropSize>1 1</cropSize>
-			<imageType>fanart,screenshot,titlescreen</imageType>
-			<default>./assets/background.png</default>
-			<color>bbbbbb</color>
-			<colorEnd>111111</colorEnd>
-			<gradientType>vertical</gradientType>
+			<path>./assets/background.png</path>
+			<!--<imageType>fanart,screenshot,titlescreen</imageType>
+			<default>./assets/background.png</default>-->
+			<color>${gamelistColor}</color>
 			<zIndex>2</zIndex>
 		</image>
 		<image name="textback">
@@ -729,6 +728,7 @@
 				<horizontalMargin>0.005</horizontalMargin>
 				<systemNameSuffix>false</systemNameSuffix>
 				<primaryColor>${textColor}</primaryColor>
+				<secondaryColor>${textColor1}</secondaryColor>
 				<selectedColor>${backgroundColor}</selectedColor>
 				<selectorColor>${outlineColor1}</selectorColor>
 				<fontPath>${mainFont}</fontPath>
