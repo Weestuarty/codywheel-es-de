@@ -46,7 +46,7 @@
 			<iconColor>${helpColor}</iconColor>
 			<iconColorDimmed>${helpColor1}</iconColorDimmed>
 			<fontPath>${mainFont}</fontPath>
-			<fontSize>0.0162</fontSize>
+			<fontSize>0.02</fontSize>
 			<opacity>0.6</opacity>
 			<letterCase>capitalize</letterCase>
 		</helpsystem>
@@ -348,9 +348,10 @@
 		</text>
 		<text name="systemdesc">
 			<text>${systemDescription}</text>
-			<pos>0.28 0.69</pos>
-			<size>0.385 0.25</size>
+			<pos>0.28 0.665</pos>
+			<size>0.37 0.29</size>
 			<container>true</container>
+			<horizontalAlignment>center</horizontalAlignment>
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>0.025</fontSize>
 			<color>${textColor1}</color>
