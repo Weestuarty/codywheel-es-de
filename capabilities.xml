@@ -39,13 +39,15 @@
     
     <themeName>CodyWheel</themeName>
 
+    <colorScheme name="mono">
+        <label>Black n White</label>
+    </colorScheme>
+    
     <colorScheme name="gold">
         <label>Gold</label>
     </colorScheme>
 
-    <colorScheme name="mono">
-        <label>Black n White</label>
-    </colorScheme>
+   
 
     <colorScheme name="blue">
         <label>Blue</label>
