@@ -1,4 +1,17 @@
 <theme>
+    <colorScheme name="mono">
+        <variables>
+            <colorSchemeName>mono</colorSchemeName>
+            <backgroundColor>000000</backgroundColor>
+            <outlineColor1>FFFFFF</outlineColor1>
+            <systemlogoColor>a0a0a0</systemlogoColor>
+            <gamelistColor>404040</gamelistColor>
+            <textColor1>FFFFFF</textColor1>
+            <textColor>a0a0a0</textColor>
+            <helpColor>FFFFFF</helpColor>
+            <helpColor1>FFFFFF</helpColor1>
+        </variables>
+    </colorScheme>
     <colorScheme name="classy">
         <variables>
             <colorSchemeName>classy</colorSchemeName>
@@ -38,19 +51,7 @@
             <helpColor1>5e3427</helpColor1>
         </variables>
     </colorScheme>
-    <colorScheme name="mono">
-        <variables>
-            <colorSchemeName>mono</colorSchemeName>
-            <backgroundColor>000000</backgroundColor>
-            <outlineColor1>FFFFFF</outlineColor1>
-            <systemlogoColor>a0a0a0</systemlogoColor>
-            <gamelistColor>404040</gamelistColor>
-            <textColor1>FFFFFF</textColor1>
-            <textColor>a0a0a0</textColor>
-            <helpColor>FFFFFF</helpColor>
-            <helpColor1>FFFFFF</helpColor1>
-        </variables>
-    </colorScheme>
+    
     <colorScheme name="blue">
         <variables>
             <colorSchemeName>blue</colorSchemeName>
