@@ -487,6 +487,7 @@
 			<pos>0.5875 0.2</pos>
 			<origin>0.5 0.5</origin>
 			<maxSize>0.3 0.25</maxSize>
+			<interpolation>linear</interpolation>
 		</image>
 		<image name="Syslogo">
 			<path>./assets/syslogo/${system.theme}.svg</path>
@@ -507,6 +508,7 @@
 			<pos>0.625 0.74</pos>
 			<origin>0.5 0.5</origin>
 			<maxSize>0.2 0.39</maxSize>
+			<interpolation>linear</interpolation>
 		</image>
 		<image name="player">
 			<path>./assets/badges/default.png</path>
