@@ -5,9 +5,9 @@
 <theme>
 	<include>./navigationsounds.xml</include>
 	<include>./colors.xml</include>
-	<include>./systems/metadata-global/_default.xml</include>
-	<include>./systems/metadata-global/${system.theme}.xml</include>
-	<include>./systems/metadata-custom/${system.theme}.xml</include>
+	<include>./system/metadata/_default.xml</include>
+	<include>./system/metadata/${system.theme}.xml</include>
+	<include>./system/custom/metadata/${system.theme}.xml</include>
 
 	<variables>
 		<mainFont>./assets/fonts/acre.otf</mainFont>
@@ -61,7 +61,7 @@
 			<fastScrolling>true</fastScrolling>
 			<type>verticalWheel</type>
 			<itemScale>1</itemScale>
-			<staticImage>./assets/syslogo/${system.theme}.svg</staticImage>
+			<staticImage>./system/logos/system-logo-white/${system.theme}.svg</staticImage>
 			<imageColor>${outlineColor1}</imageColor>
 			<itemRotationOrigin>3 0.5</itemRotationOrigin>
 			<systemNameSuffix>false</systemNameSuffix>
@@ -490,7 +490,7 @@
 			<interpolation>linear</interpolation>
 		</image>
 		<image name="Syslogo">
-			<path>./assets/syslogo/${system.theme}.svg</path>
+			<path>./system/logos/system-logo-white/${system.theme}.svg</path>
 			<pos>0.865 0.07</pos>
 			<origin>0.5 0.5</origin>
 			<maxSize>0.21 0.12</maxSize>
