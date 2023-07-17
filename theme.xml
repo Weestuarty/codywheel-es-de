@@ -512,7 +512,7 @@
 		</image>
 		<image name="player">
 			<path>./assets/badges/default.png</path>
-			<pos>0.37 0.94</pos>
+			<pos>0.39 0.94</pos>
 			<origin>0.5 0.5</origin>
 			<maxSize>0.05 0.1</maxSize>
 			<metadataElement>true</metadataElement>
@@ -526,7 +526,7 @@
 			<fontSize>0.05</fontSize>
 			<color>${outlineColor1}</color>
 			<horizontalAlignment>left</horizontalAlignment>
-			<pos>0.42 0.9025</pos>
+			<pos>0.44 0.9025</pos>
 			<origin>0 0</origin>
 		</text>
 		<text name="player2">
@@ -536,7 +536,7 @@
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>0.03</fontSize>
 			<color>${outlineColor1}</color>
-			<pos>0.405 0.9125</pos>
+			<pos>0.425 0.9125</pos>
 			<origin>0 0</origin>
 		</text>
 		<text name="developerlbl">
@@ -693,12 +693,12 @@
 			<zIndex>50</zIndex>
 		</text>
 		<badges name="all">
-			<pos>0.01 0.86</pos>
-			<size>0.31 .14</size>
+			<pos>0.0075 0.87</pos>
+			<size>0.34 .14</size>
 			<direction>row</direction>
 			<lines>1</lines>
 			<itemsPerLine>5</itemsPerLine>
-			<slots>completed, favorite, altemulator, kidgame,controller</slots>
+			<slots>completed, favorite, altemulator, kidgame,controller,manual</slots>
 			<controllerPos>0.5 0.575</controllerPos>
 			<controllerSize>0.85</controllerSize>
 			<folderLinkSize>0.85 0.9</folderLinkSize>
@@ -707,6 +707,7 @@
 			<customFolderLinkIcon>./assets/badges/link.png</customFolderLinkIcon>
 			<badgeIconColor>${outlineColor1}</badgeIconColor>
 			<horizontalAlignment>center</horizontalAlignment>
+			<customBadgeIcon badge="manual">./assets/badges/manual.svg</customBadgeIcon>
 			<customBadgeIcon badge="kidgame">./assets/badges/kid.svg</customBadgeIcon>
 			<customBadgeIcon badge="collection">./assets/badges/collection.svg</customBadgeIcon>
 			<customBadgeIcon badge="altemulator">./assets/badges/alt.svg</customBadgeIcon>
