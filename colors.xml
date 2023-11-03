@@ -1,0 +1,160 @@
+<theme>
+    <colorScheme name="mono">
+        <variables>
+            <colorSchemeName>mono</colorSchemeName>
+            <backgroundColor>000000</backgroundColor>
+            <outlineColor1>FFFFFF</outlineColor1>
+            <systemlogoColor>a0a0a0</systemlogoColor>
+            <gamelistColor>404040</gamelistColor>
+            <textColor1>FFFFFF</textColor1>
+            <textColor>a0a0a0</textColor>
+            <helpColor>FFFFFF</helpColor>
+            <helpColor1>FFFFFF</helpColor1>
+        </variables>
+    </colorScheme>
+    <colorScheme name="classy">
+        <variables>
+            <colorSchemeName>classy</colorSchemeName>
+            <backgroundColor>561420</backgroundColor>
+            <outlineColor1>c59a6f</outlineColor1>
+            <systemlogoColor>c59a6f</systemlogoColor>
+            <gamelistColor>bc5235</gamelistColor>
+            <textColor1>e5ba8f</textColor1>
+            <textColor>c59a6f</textColor>
+            <helpColor>c59a6f</helpColor>
+            <helpColor1>c59a6f</helpColor1>
+        </variables>
+    </colorScheme>
+<colorScheme name="gold">
+        <variables>
+            <colorSchemeName>gold</colorSchemeName>
+            <backgroundColor>111111</backgroundColor>
+            <outlineColor1>EEBB00</outlineColor1>
+            <systemlogoColor>aa7700</systemlogoColor>
+            <gamelistColor>202020</gamelistColor>
+            <textColor1>DDAA00</textColor1>
+            <textColor>AA7700</textColor>
+            <helpColor>DDAA00</helpColor>
+            <helpColor1>DDAA00</helpColor1>
+        </variables>
+    </colorScheme>
+    <colorScheme name="retro">
+        <variables>
+            <colorSchemeName>retro</colorSchemeName>
+            <backgroundColor>D3c09F</backgroundColor>
+            <outlineColor1>5e3427</outlineColor1>
+            <systemlogoColor>5e3427</systemlogoColor>
+            <gamelistColor>ca9852</gamelistColor>
+            <textColor1>d3c09f</textColor1>
+            <textColor>6e4437</textColor>
+            <helpColor>5e3427</helpColor>
+            <helpColor1>5e3427</helpColor1>
+        </variables>
+    </colorScheme>
+    
+    <colorScheme name="blue">
+        <variables>
+            <colorSchemeName>blue</colorSchemeName>
+            <backgroundColor>002f63</backgroundColor>
+            <outlineColor1>96b7ee</outlineColor1>
+            <systemlogoColor>008fb3</systemlogoColor>
+            <gamelistColor>6699cc</gamelistColor>
+            <textColor1>96b7ee</textColor1>
+            <textColor>acc8d7</textColor>
+            <helpColor>96b7ee</helpColor>
+            <helpColor1>96b7ee</helpColor1>
+        </variables>
+    </colorScheme>
+	<colorScheme name="chill">
+        <variables>
+            <colorSchemeName>chill</colorSchemeName>
+            <backgroundColor>47697e</backgroundColor>
+            <outlineColor1>fcf1d1</outlineColor1>
+            <systemlogoColor>bcb191</systemlogoColor>
+            <gamelistColor>27495e</gamelistColor>
+            <textColor1>fcf1d1</textColor1>
+            <textColor>bcb191</textColor>
+            <helpColor>fcf1d1</helpColor>
+            <helpColor1>fcf1d1</helpColor1>
+        </variables>
+    </colorScheme>
+    <colorScheme name="purplerain">
+        <variables>
+            <colorSchemeName>purplerain</colorSchemeName>
+            <backgroundColor>421c52</backgroundColor>
+            <outlineColor1>bdaec6</outlineColor1>
+            <systemlogoColor>7d6e86</systemlogoColor>
+            <gamelistColor>220032</gamelistColor>
+            <textColor1>bdaec6</textColor1>
+            <textColor>7d6e86</textColor>
+            <helpColor>bdaec6</helpColor>
+            <helpColor1>bdaec6</helpColor1>
+        </variables>
+    </colorScheme>
+    <colorScheme name="orange">
+        <variables>
+            <colorSchemeName>orange</colorSchemeName>
+            <backgroundColor>2a3439</backgroundColor>
+            <outlineColor1>8d4004</outlineColor1>
+            <systemlogoColor>8d4004</systemlogoColor>
+            <gamelistColor>404040</gamelistColor>
+            <textColor1>bd7034</textColor1>
+            <textColor>8d4004</textColor>
+            <helpColor>bd7034</helpColor>
+            <helpColor1>8d4004</helpColor1>
+        </variables>
+    </colorScheme>
+    <colorScheme name="gameboy">
+        <variables>
+            <colorSchemeName>gameboy</colorSchemeName>
+            <backgroundColor>75a883</backgroundColor>
+            <outlineColor1>3e4943</outlineColor1>
+            <systemlogoColor>3e4943</systemlogoColor>
+            <gamelistColor>606060</gamelistColor>
+            <textColor1>558863</textColor1>
+            <textColor>1e2923</textColor>
+            <helpColor>1e2923</helpColor>
+            <helpColor1>111111</helpColor1>
+            
+        </variables>
+    </colorScheme>
+    <colorScheme name="gameboycase">
+        <variables>
+            <colorSchemeName>gameboycase</colorSchemeName>
+            <backgroundColor>000000</backgroundColor>
+            <outlineColor1>9a2257</outlineColor1>
+            <systemlogoColor>9a2257</systemlogoColor>
+            <gamelistColor>202020</gamelistColor>
+            <textColor1>Fa82B7</textColor1>
+            <textColor>9a2257</textColor>
+            <helpColor>fa82b7</helpColor>
+            <helpColor1>9a2257</helpColor1>
+        </variables>
+    </colorScheme>
+    <colorScheme name="comm">
+        <variables>
+            <colorSchemeName>comm</colorSchemeName>
+            <backgroundColor>111111</backgroundColor>
+            <outlineColor1>17569B</outlineColor1>
+            <systemlogoColor>4786CB</systemlogoColor>
+            <gamelistColor>202020</gamelistColor>
+            <textColor1>4786CB</textColor1>
+            <textColor>17569B</textColor>
+            <helpColor>483AAA</helpColor>
+            <helpColor1>483AAA</helpColor1>
+        </variables>
+    </colorScheme>
+    <colorScheme name="sega">
+        <variables>
+            <colorSchemeName>sega</colorSchemeName>
+            <backgroundColor>DDDDDD</backgroundColor>
+            <outlineColor1>17569B</outlineColor1>
+            <systemlogoColor>4786CB</systemlogoColor>
+            <gamelistColor>888888</gamelistColor>
+            <textColor1>4786CB</textColor1>
+            <textColor>17569B</textColor>
+            <helpColor>483AAA</helpColor>
+            <helpColor1>483AAA</helpColor1>
+        </variables>
+    </colorScheme>
+</theme>
