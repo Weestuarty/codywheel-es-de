@@ -51,7 +51,7 @@
 		<carousel name="game_carousel">
 			<pos>.6 0</pos>
 			<size>0.4 1.</size>
-			<itemSize>0.2 0.1</itemSize>
+			<itemSize>${caritem}</itemSize>
 			<itemRotation>-10</itemRotation>
 			<fastScrolling>true</fastScrolling>
 			<type>verticalWheel</type>
