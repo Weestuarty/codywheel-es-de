@@ -13,6 +13,8 @@
         <entry>builtin-slide</entry>
         <entry>builtin-fade</entry>
     </suppressTransitionProfiles>
+    <fontSize>medium</fontSize>
+    <fontSize>x-large</fontSize>
     
 
     <transitions name="instantfade">

@@ -4,9 +4,30 @@
 		<fontSize>0.02</fontSize>
 	</variables>
 
-    <view name="system">   
+    <view name="system">
+			<carousel name="game_carousel">
+				<pos>.6 0</pos>
+				<size>0.4 1.</size>
+				<itemSize>0.2 0.1</itemSize>
+				<itemRotation>-10</itemRotation>
+				<fastScrolling>true</fastScrolling>
+				<type>verticalWheel</type>
+				<itemScale>1</itemScale>
+				<staticImage>./system/logos/system-logo-white/${system.theme}.svg</staticImage>
+				<itemRotationOrigin>4.5 0.5</itemRotationOrigin>
+				<systemNameSuffix>false</systemNameSuffix>
+				<itemHorizontalAlignment>center</itemHorizontalAlignment>
+				<unfocusedItemOpacity>0.3</unfocusedItemOpacity>
+				<color>00000000</color>
+				<textBackgroundColor>00000000</textBackgroundColor>
+				<fontSize>0.05</fontSize>
+				<letterCase>uppercase</letterCase>
+				</carousel>   
         <text name="type">
 			<fontSize>${fontSize}</fontSize>
+		</text>
+		<text name="systemname">
+			<fontSize>0.03</fontSize>
 		</text>
 		<text name="typeinfo">
 			<fontSize>${fontSize}</fontSize>
@@ -37,10 +58,7 @@
 		</text>
 
 		<text name="systemdesc">
-			<fontSize>0.025</fontSize>
-		</text>
-        <text name="systemdesc">
-			<fontSize>0.0225</fontSize>
+			<fontSize>${sysdesc}</fontSize>
 		</text>
     </view>
     <view name="system, gamelist">
@@ -84,10 +102,13 @@
 			<fontSize>${fontSize}</fontSize>
 		</text>
 		<text name="description1">
-			<fontSize>0.0225</fontSize>
+			<fontSize>${gamedesc}</fontSize>
 		</text>
 		<text name="collectionsSystemName">
 			<fontSize>0.015</fontSize>
+		</text>
+		<text name="player2">
+			<fontSize>0.02</fontSize>
 		</text>
         <rating name="rating">
 			<size>0.08 0.038</size>
@@ -96,7 +117,7 @@
     <variant name="gamelist">
 		<view name="gamelist">
 			<textlist name="game">
-				<fontSize>0.02</fontSize>
+				<fontSize>${gamedesc}</fontSize>
 			</textlist>
 		</view>
 	</variant>    

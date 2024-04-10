@@ -1,14 +1,13 @@
 <theme>
 	<include>./navigationsounds.xml</include>
 	<include>./colors.xml</include>
+	<include>./font.xml</include>
 	<include>./system/metadata/_default.xml</include>
 	<include>./system/metadata/${system.theme}.xml</include>
 	<include>./system/custom/metadata/${system.theme}.xml</include>
 
 	<variables>
-		<mainFont>./assets/fonts/acre.otf</mainFont>
-		<secondaryFont>./assets/fonts/erbaum.otf</secondaryFont>
-		<fontSize>0.0275</fontSize>
+		
 	</variables>
 
 	<aspectRatio name="4:3">
@@ -42,7 +41,7 @@
 			<iconColor>${helpColor}</iconColor>
 			<iconColorDimmed>${helpColor1}</iconColorDimmed>
 			<fontPath>${mainFont}</fontPath>
-			<fontSize>0.02</fontSize>
+			<fontSize>${helpsize}</fontSize>
 			<opacity>0.6</opacity>
 			<letterCase>capitalize</letterCase>
 		</helpsystem>
@@ -69,7 +68,7 @@
 			<text>${system.fullName}</text>
 			<textColor>${outlineColor1}</textColor>
 			<fontPath>${mainFont}</fontPath>
-			<fontSize>0.02</fontSize>
+			<fontSize>${carfontSize}</fontSize>
 			<letterCase>none</letterCase>
 			<lineSpacing>1</lineSpacing>
 			<zIndex>50</zIndex>
@@ -252,8 +251,9 @@
 		</image>
 		<text name="type">
 			<text>Type:</text>
-			<pos>0.05 0.68</pos>
-			<size>0.11 0.05</size>
+			<pos>0.16 0.68</pos>
+			<size>${infosize}</size>
+			<origin>1 0</origin>
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>${fontSize}</fontSize>
 			<color>${textColor}</color>
@@ -268,8 +268,9 @@
 		</text>
 		<text name="manufact">
 			<text>Manufacturer:</text>
-			<pos>0.05 0.71</pos>
-			<size>0.11 0.05</size>
+			<pos>0.16 0.71</pos>
+			<size>${infosize}</size>
+			<origin>1 0</origin>
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>${fontSize}</fontSize>
 			<color>${textColor}</color>
@@ -284,8 +285,9 @@
 		</text>
 		<text name="release">
 			<text>Released:</text>
-			<pos>0.05 0.74</pos>
-			<size>0.11 0.05</size>
+			<pos>0.16 0.74</pos>
+			<size>${infosize}</size>
+			<origin>1 0</origin>
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>${fontSize}</fontSize>
 			<color>${textColor}</color>
@@ -300,20 +302,21 @@
 		</text>
 		<text name="systemname">
 			<systemdata>fullname</systemdata>
-			<pos>0.03 0.225</pos>
-			<size>0.235 0.1</size>
+			<pos>0.03 0.215</pos>
+			<size>0.235 0.11</size>
 			<fontPath>${secondaryFont}</fontPath>
 			<horizontalAlignment>center</horizontalAlignment>
 			<verticalAlignment>center</verticalAlignment>
 			<letterCase>capitalize</letterCase>
-			<fontSize>0.03</fontSize>
+			<fontSize>${sysdesc}</fontSize>
 			<color>${outlineColor1}</color>
-			<lineSpacing>1</lineSpacing>
+			<lineSpacing>.95</lineSpacing>
 		</text>
 		<text name="gamecountlbl">
 			<text>Installed Titles:</text>
-			<pos>0.05 0.77</pos>
-			<size>0.11 0.05</size>
+			<pos>0.16 0.77</pos>
+			<size>${infosize}</size>
+			<origin>1 0</origin>
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>${fontSize}</fontSize>
 			<color>${textColor}</color>
@@ -328,8 +331,9 @@
 		</text>
 		<text name="favoritelbl">
 			<text>Favorite Titles:</text>
-			<pos>0.05 0.8</pos>
-			<size>0.11 0.05</size>
+			<pos>0.16 0.8</pos>
+			<size>${infosize}</size>
+			<origin>1 0</origin>
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>${fontSize}</fontSize>
 			<color>${textColor}</color>
@@ -349,7 +353,7 @@
 			<container>true</container>
 			<horizontalAlignment>center</horizontalAlignment>
 			<fontPath>${mainFont}</fontPath>
-			<fontSize>0.025</fontSize>
+			<fontSize>${sysdesc}</fontSize>
 			<color>${textColor1}</color>
 			<lineSpacing>.95</lineSpacing>
 		</text>
@@ -366,14 +370,14 @@
 			<zIndex>2</zIndex>
 		</image>
 		<image name="textback">
-			<pos>0.75 0</pos>
-			<size>0.23 1</size>
+			<pos>${gamebackmainp}</pos>
+			<size>${gamebackmains}</size>
 			<path>./assets/box.png</path>
 			<color>${backgroundColor}BB</color>
 			<zIndex>15</zIndex>
 		</image>
 		<image name="textleft">
-			<pos>0.74 0</pos>
+			<pos>${gametextleftp}</pos>
 			<size>0.01 1</size>
 			<path>./assets/box.png</path>
 			<color>${outlineColor1}00</color>
@@ -381,7 +385,7 @@
 			<zIndex>14</zIndex>
 		</image>
 		<image name="textright">
-			<pos>0.98 0</pos>
+			<pos>${gametextrightp}</pos>
 			<size>0.01 1</size>
 			<path>./assets/box.png</path>
 			<color>${outlineColor1}99</color>
@@ -407,8 +411,8 @@
 			<zIndex>9</zIndex>
 		</image>
 		<image name="topouter2">
-			<pos>0.981 0.05</pos>
-			<size>0.02 0.0025</size>
+			<pos>${toppos2}</pos>
+			<size>${topwidth}</size>
 			<origin>0 0</origin>
 			<path>./assets/box.png</path>
 			<tile>false</tile>
@@ -416,8 +420,8 @@
 			<zIndex>9</zIndex>
 		</image>
 		<image name="topinner2">
-			<pos>0.981 0</pos>
-			<size>0.02 0.05</size>
+			<pos>${toppos}</pos>
+			<size>${topwidth2}</size>
 			<origin>0 0</origin>
 			<path>./assets/box.png</path>
 			<tile>false</tile>
@@ -450,6 +454,7 @@
 			<tile>false</tile>
 			<color>${outlineColor1}</color>
 			<zIndex>9</zIndex>
+			<visible>${showitem}</visible>
 		</image>
 		<image name="bottominner2">
 			<pos>0 0.003</pos>
@@ -459,6 +464,7 @@
 			<tile>false</tile>
 			<color>${backgroundColor}BB</color>
 			<zIndex>9</zIndex>
+			<visible>${showitem}</visible>
 		</image>
 		<image name="bottomouter3">
 			<pos>-.001 0.003</pos>
@@ -484,10 +490,11 @@
 			<origin>0.5 0.5</origin>
 			<maxSize>0.3 0.25</maxSize>
 			<interpolation>linear</interpolation>
+			<visible>${showitem}</visible>
 		</image>
 		<image name="Syslogo">
 			<path>./system/logos/system-logo-white/${system.theme}.svg</path>
-			<pos>0.865 0.07</pos>
+			<pos>${syslogo}</pos>
 			<origin>0.5 0.5</origin>
 			<maxSize>0.21 0.12</maxSize>
 			<color>${systemlogoColor}</color>
@@ -498,6 +505,8 @@
 			<origin>0.5 0</origin>
 			<size>0.21 0.005</size>
 			<color>${textColor}</color>
+			<visible>${showitem}</visible>
+
 		</image>
 		<image name="gamcover">
 			<imageType>cover</imageType>
@@ -505,10 +514,11 @@
 			<origin>0.5 0.5</origin>
 			<maxSize>0.2 0.39</maxSize>
 			<interpolation>linear</interpolation>
+			<visible>${showitem}</visible>
 		</image>
 		<image name="player">
 			<path>./assets/badges/default.png</path>
-			<pos>0.39 0.94</pos>
+			<pos>0.35 0.94</pos>
 			<origin>0.5 0.5</origin>
 			<maxSize>0.05 0.1</maxSize>
 			<metadataElement>true</metadataElement>
@@ -519,10 +529,12 @@
 			<metadata>players</metadata>
 			<defaultValue>:space:</defaultValue>
 			<fontPath>${mainFont}</fontPath>
-			<fontSize>0.05</fontSize>
+			<fontSize>${gameplayer}</fontSize>
 			<color>${outlineColor1}</color>
 			<horizontalAlignment>left</horizontalAlignment>
-			<pos>0.44 0.9025</pos>
+			<verticalAlignment>center</verticalAlignment>
+			<pos>0.4 0.89</pos>
+			<size>0.075 0.1</size>
 			<origin>0 0</origin>
 		</text>
 		<text name="player2">
@@ -530,9 +542,11 @@
 			<defaultValue>:space:</defaultValue>
 			<metadataElement>true</metadataElement>
 			<fontPath>${mainFont}</fontPath>
-			<fontSize>0.03</fontSize>
+			<fontSize>${gametext}</fontSize>
 			<color>${outlineColor1}</color>
-			<pos>0.425 0.9125</pos>
+			<verticalAlignment>center</verticalAlignment>
+			<pos>0.385 0.89</pos>
+			<size>0.015 0.1</size>
 			<origin>0 0</origin>
 		</text>
 		<text name="developerlbl">
@@ -545,6 +559,7 @@
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>${fontSize}</fontSize>
 			<color>${textColor}</color>
+			<visible>${showitem}</visible>
 		</text>
 		<text name="developer">
 			<metadata>developer</metadata>
@@ -554,6 +569,7 @@
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>${fontSize}</fontSize>
 			<color>${textColor1}</color>
+			<visible>${showitem}</visible>
 		</text>
 		<text name="publisherlbl">
 			<text>Publisher:</text>
@@ -565,6 +581,7 @@
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>${fontSize}</fontSize>
 			<color>${textColor}</color>
+			<visible>${showitem}</visible>
 		</text>
 		<text name="publisher">
 			<metadata>publisher</metadata>
@@ -574,6 +591,7 @@
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>${fontSize}</fontSize>
 			<color>${textColor1}</color>
+			<visible>${showitem}</visible>
 		</text>
 		<text name="genrelbl">
 			<text>Genre:</text>
@@ -585,6 +603,7 @@
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>${fontSize}</fontSize>
 			<color>${textColor}</color>
+			<visible>${showitem}</visible>
 		</text>
 		<text name="genre">
 			<metadata>genre</metadata>
@@ -594,6 +613,7 @@
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>${fontSize}</fontSize>
 			<color>${textColor1}</color>
+			<visible>${showitem}</visible>
 		</text>
 		<text name="releaselbl">
 			<text>Released:</text>
@@ -605,6 +625,7 @@
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>${fontSize}</fontSize>
 			<color>${textColor}</color>
+			<visible>${showitem}</visible>
 		</text>
 		<datetime name="release">
 			<metadata>releasedate</metadata>
@@ -615,6 +636,7 @@
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>${fontSize}</fontSize>
 			<color>${textColor1}</color>
+			<visible>${showitem}</visible>
 		</datetime>
 		<text name="lastplayedbl">
 			<text>Last Played:</text>
@@ -626,6 +648,7 @@
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>${fontSize}</fontSize>
 			<color>${textColor}</color>
+			<visible>${showitem}</visible>
 		</text>
 		<datetime name="lastplayed">
 			<metadata>lastplayed</metadata>
@@ -635,6 +658,7 @@
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>${fontSize}</fontSize>
 			<color>${textColor1}</color>
+			<visible>${showitem}</visible>
 		</datetime>
 		<text name="playcountlbl">
 			<text>Times Played:</text>
@@ -646,6 +670,7 @@
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>${fontSize}</fontSize>
 			<color>${textColor}</color>
+			<visible>${showitem}</visible>
 		</text>
 		<text name="playcount">
 			<metadata>playcount</metadata>
@@ -655,6 +680,7 @@
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>${fontSize}</fontSize>
 			<color>${textColor1}</color>
+			<visible>${showitem}</visible>
 		</text>
 		<video name="cover9">
 			<pos>0.22 0.305</pos>
@@ -668,7 +694,7 @@
 			<size>0.42 0.28</size>
 			<metadata>description</metadata>
 			<fontPath>${mainFont}</fontPath>
-			<fontSize>0.025</fontSize>
+			<fontSize>${gamedesc}</fontSize>
 			<lineSpacing>1</lineSpacing>
 			<defaultValue>:space:</defaultValue>
 			<verticalAlignment>bottom</verticalAlignment>
@@ -687,6 +713,7 @@
 			<verticalAlignment>center</verticalAlignment>
 			<color>${outlineColor1}</color>
 			<zIndex>50</zIndex>
+			<visible>${showitem}</visible>
 		</text>
 		<badges name="all">
 			<pos>0.0075 0.87</pos>
@@ -723,8 +750,8 @@
 	<variant name="gamelist">
 		<view name="gamelist">
 			<textlist name="game">
-				<pos>0.76 0.15</pos>
-				<size>0.21 .85</size>
+				<pos>${textlistp}</pos>
+				<size>${textlists}</size>
 				<horizontalMargin>0.005</horizontalMargin>
 				<systemNameSuffix>false</systemNameSuffix>
 				<primaryColor>${textColor}</primaryColor>
@@ -732,7 +759,7 @@
 				<selectedColor>${backgroundColor}</selectedColor>
 				<selectorColor>${outlineColor1}</selectorColor>
 				<fontPath>${mainFont}</fontPath>
-				<fontSize>0.025</fontSize>
+				<fontSize>${gamedesc}</fontSize>
 				<letterCase>none</letterCase>
 				<lineSpacing>1.5</lineSpacing>
 				<zIndex>50</zIndex>
@@ -742,12 +769,12 @@
 	<variant name="gamecarousel">
 		<view name="gamelist">
 			<carousel name="game">
-				<pos>0.76 0.15</pos>
-				<size>0.21 .85</size>
+				<pos>${textlistp}</pos>
+				<size>${textlists}</size>
 				<type>vertical</type>
 				<imageType>marquee</imageType>
-				<maxItemCount>6.5</maxItemCount>
-				<itemSize>0.16 0.1</itemSize>
+				<maxItemCount>${items}</maxItemCount>
+				<itemSize>${carsize}</itemSize>
 				<itemScale>1.3</itemScale>
 				<fastScrolling>true</fastScrolling>
 				<imageInterpolation>linear</imageInterpolation>
@@ -769,10 +796,10 @@
 	<variant name="gamegrid">
 		<view name="gamelist">
 			<grid name="game">
-				<pos>0.7575 0.15</pos>
-				<size>0.22 .85</size>
+				<pos>${textlistp}</pos>
+				<size>${textlists}</size>
 				<imageType>marquee</imageType>
-				<itemSize>0.085 0.1</itemSize>
+				<itemSize>${gridsize}</itemSize>
 				<itemScale>1.3</itemScale>
 				<itemSpacing>0.015 0</itemSpacing>
 				<unfocusedItemOpacity>1</unfocusedItemOpacity>
