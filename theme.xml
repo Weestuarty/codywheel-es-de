@@ -778,7 +778,7 @@
 				<itemScale>1.3</itemScale>
 				<fastScrolling>true</fastScrolling>
 				<imageInterpolation>linear</imageInterpolation>
-				<unfocusedItemOpacity>1</unfocusedItemOpacity>
+				<unfocusedItemOpacity>0.75</unfocusedItemOpacity>
 				<unfocusedItemSaturation>0.5</unfocusedItemSaturation>
 				<unfocusedItemDimming>0.5</unfocusedItemDimming>
 				<reflections>true</reflections>
@@ -801,8 +801,8 @@
 				<imageType>marquee</imageType>
 				<itemSize>${gridsize}</itemSize>
 				<itemScale>1.3</itemScale>
-				<itemSpacing>0.015 0</itemSpacing>
-				<unfocusedItemOpacity>1</unfocusedItemOpacity>
+				<itemSpacing>0.01 0</itemSpacing>
+				<unfocusedItemOpacity>0.75</unfocusedItemOpacity>
 				<unfocusedItemSaturation>0.5</unfocusedItemSaturation>
 				<unfocusedItemDimming>0.5</unfocusedItemDimming>
 				<text>${system.fullName}</text>
