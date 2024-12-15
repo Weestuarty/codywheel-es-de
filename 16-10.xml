@@ -38,11 +38,9 @@
 		</text>
 
 		<text name="systemdesc">
-			<fontSize>0.025</fontSize>
+			<fontSize>${sysdesc}</fontSize>
 		</text>
-        <text name="systemdesc">
-			<fontSize>0.0225</fontSize>
-		</text> 
+        
     </view>
     <view name="system, gamelist">
        
@@ -52,6 +50,9 @@
         <rating name="rating">
 			<size>0.08 0.045</size>
 		</rating>
+		<text name="player2">
+			<fontSize>0.03</fontSize>
+		</text>
         
     </view>
     
